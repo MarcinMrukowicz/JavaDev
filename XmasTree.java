@@ -1,4 +1,3 @@
-//import java.math.*;
 import java.util.Scanner;
 
 public class XmasTree 
@@ -24,7 +23,7 @@ public class XmasTree
 	{
 		
 		int ilespacji=Math.round(((float)NumberOfLevels*2-1)/2)-currentLevel;
-		//System.out.println(ilespacji+","+currentLevel);
+		
 		
 		temp=setchar("", ilespacji,' ');
 		
@@ -49,7 +48,7 @@ public class XmasTree
 	
 	if (type.equals("right"))
 	{
-		//System.out.println(-(Math.round(((float)NumberOfLevels*2-1)/2)-currentLevel)+","+currentLevel);
+		
 		
 		if (currentLevel<=(Math.round(((float)NumberOfLevels*2-1)/2)))
 			temp=setchar("",currentLevel,c);
